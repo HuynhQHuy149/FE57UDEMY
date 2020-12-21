@@ -1,0 +1,28 @@
+
+.header_left{
+    display:flex;
+    align-items: center;
+
+    a{
+        flex-grow: 1;
+    }
+    .catagories{
+        flex-grow: 1;
+    .input{
+        border: 1px solid transparent ;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    }
+    @include search();
+
+}
+.border-right{
+    li{
+        .btn-login{
+            border: 1px solid;
+            
+        }
+    }
+}
